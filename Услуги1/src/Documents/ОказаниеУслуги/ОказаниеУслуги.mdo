@@ -174,25 +174,6 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="9d9d62ee-d81b-4692-8979-c9ac1f95252c">
-      <name>Стоимость</name>
-      <synonym>
-        <key>ru</key>
-        <value>Стоимость</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <scale>2</scale>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
   </tabularSections>
   <templates uuid="e4bbfc3b-df73-48ae-9703-bc72568088cb">
     <name>Печать</name>
