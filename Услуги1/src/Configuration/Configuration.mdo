@@ -61,6 +61,9 @@
   <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
   <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
   <commonModules>CommonModule.ГлобальныйПоискВДанных</commonModules>
+  <commonModules>CommonModule.РегламентныеПроцедуры</commonModules>
+  <scheduledJobs>ScheduledJob.ОбновлениеИндекса</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СлияниеИндексов</scheduledJobs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
