@@ -67,8 +67,12 @@
   <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
   <commonModules>CommonModule.ГлобальныйПоискВДанных</commonModules>
   <commonModules>CommonModule.РегламентныеПроцедуры</commonModules>
+  <commonModules>CommonModule.Обмен</commonModules>
+  <exchangePlans>ExchangePlan.Филиал</exchangePlans>
   <scheduledJobs>ScheduledJob.ОбновлениеИндекса</scheduledJobs>
   <scheduledJobs>ScheduledJob.СлияниеИндексов</scheduledJobs>
+  <constants>Constant.ПрефиксНумерации</constants>
+  <commonForms>CommonForm.ОбщиеНастройки</commonForms>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
@@ -95,6 +99,7 @@
   <reports>Report.НачисленияСотрудникам</reports>
   <reports>Report.ДиаграммаНачислений</reports>
   <dataProcessors>DataProcessor.РаботаСЗапросами</dataProcessors>
+  <dataProcessors>DataProcessor.ОбменДанными</dataProcessors>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
