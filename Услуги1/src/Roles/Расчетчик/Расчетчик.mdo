@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49211e9f-ed0d-4523-be61-d0e4f304e404">
+  <name>Расчетчик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчетчик</value>
+  </synonym>
+</mdclass:Role>

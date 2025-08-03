@@ -57,6 +57,11 @@
   <commonPictures>CommonPicture.ОказаниеУслуг</commonPictures>
   <commonPictures>CommonPicture.РасчетЗарплаты</commonPictures>
   <commonPictures>CommonPicture.Предприятие</commonPictures>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Директор</roles>
+  <roles>Role.Мастер</roles>
+  <roles>Role.Расчетчик</roles>
+  <roles>Role.Бухгалтер</roles>
   <commonModules>CommonModule.РаботаСДокументами</commonModules>
   <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
   <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
