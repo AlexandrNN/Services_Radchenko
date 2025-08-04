@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4c96412-4199-4917-9a26-bb0dc8469c54" thisNode="2af3b1b4-462b-4427-8716-2ea6cb2aeddf">
+  <producedTypes>
+    <objectType typeId="f1ea932b-25b7-44ef-b9a0-b2082707493a" valueTypeId="64ee1515-28f6-47d4-9ea1-e3070ac0a196"/>
+    <refType typeId="a64d9855-6908-46b5-9a1d-2f46e84791de" valueTypeId="d4e4730f-a3ae-4324-8ff7-e56a468b366e"/>
+    <selectionType typeId="02cd148e-0aef-4c8f-ae55-1e37db34ccf7" valueTypeId="d7ffd2b8-e0f4-40a3-9cbb-0e8e5f045cb6"/>
+    <listType typeId="48563f2f-ce8e-4272-aca4-d1b621b80e45" valueTypeId="0f0e49c9-1edd-4d0d-a9e3-8a18069ab5da"/>
+    <managerType typeId="a63461c9-0bba-4549-8a20-e0e1a9b58d37" valueTypeId="593b926c-374d-4dbe-826c-44ff62981f11"/>
+  </producedTypes>
+  <name>Отделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отделения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.Отделения.StandardAttribute.Code</inputByString>
+  <inputByString>ExchangePlan.Отделения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Отделение</value>
+  </objectPresentation>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.ВариантыНоменклатуры</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>AccumulationRegister.СтоимостьМатериалов</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.ОказаниеУслуги</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Склады</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.Цены</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Клиенты</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ДополнительныеСвойстваНоменклатуры</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>ChartOfCharacteristicTypes.СвойстваНоменклатуры</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>AccumulationRegister.Продажи</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.ПриходнаяНакладная</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>AccumulationRegister.ОстаткиМатериалов</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Сотрудники</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗначенияСвойствНоменклатуры</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <distributedInfoBase>true</distributedInfoBase>
+</mdclass:ExchangePlan>
