@@ -58,6 +58,7 @@
     <visibilityFragments>
       <command>DataProcessor.ОбменДанными.StandardCommand.Open</command>
       <visible>
+        <common>true</common>
         <for>
           <value>true</value>
           <role>Role.Администратор</role>
@@ -86,6 +87,16 @@
     <visibilityFragments>
       <command>ExchangePlan.Отделения.StandardCommand.Create</command>
       <visible>
+        <for>
+          <value>true</value>
+          <role>Role.Администратор</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ОбменСОтделениями.StandardCommand.Open</command>
+      <visible>
+        <common>true</common>
         <for>
           <value>true</value>
           <role>Role.Администратор</role>
